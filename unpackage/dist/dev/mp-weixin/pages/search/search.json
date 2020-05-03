@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "search-bar": "/components/search-bar/search-bar",
+    "cl-tabs": "/components/cl-tabs/cl-tabs",
+    "poem-list": "/components/poem-list/poem-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "empty": "/components/empty/empty"
+  }
+}

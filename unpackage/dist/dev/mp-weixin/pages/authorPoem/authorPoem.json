@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cl-tabs": "/components/cl-tabs/cl-tabs",
+    "poem-list": "/components/poem-list/poem-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "empty": "/components/empty/empty"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/author/author",
+    "pages/subject/subject",
+    "pages/collection/collection",
+    "pages/search/search",
+    "pages/article/article",
+    "pages/authorPoem/authorPoem",
+    "pages/typePoem/typePoem"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "品词轩",
+    "navigationBarBackgroundColor": "#339999",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "40px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/slice_0_0.png",
+        "selectedIconPath": "static/images/slice_1_0.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/author/author",
+        "iconPath": "static/images/slice_0_1.png",
+        "selectedIconPath": "static/images/slice_1_1.png",
+        "text": "作者"
+      },
+      {
+        "pagePath": "pages/subject/subject",
+        "iconPath": "static/images/slice_0_2.png",
+        "selectedIconPath": "static/images/slice_1_2.png",
+        "text": "专题"
+      },
+      {
+        "pagePath": "pages/collection/collection",
+        "iconPath": "static/images/slice_0_3.png",
+        "selectedIconPath": "static/images/slice_1_3.png",
+        "text": "收藏"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap99.json"
+}

@@ -1,0 +1,73 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"postcss": true,
+		"minified": true,
+		"es6": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wxfca65b0cd6961256",
+	"projectname": "poem-wx",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"name": "",
+					"path": "",
+					"query": "",
+					"id": 0
+				},
+				{
+					"name": "首页",
+					"query": "",
+					"id": 1,
+					"pathName": "pages/home/home"
+				},
+				{
+					"name": "作者",
+					"query": "",
+					"id": 2,
+					"pathName": "pages/author/author"
+				},
+				{
+					"name": "搜索",
+					"query": "",
+					"id": 3,
+					"pathName": "pages/search/search"
+				},
+				{
+					"name": "专题",
+					"query": "",
+					"id": 4,
+					"pathName": "pages/subject/subject"
+				},
+				{
+					"name": "作者诗词",
+					"query": "author=李煜",
+					"id": 5,
+					"pathName": "pages/authorPoem/authorPoem"
+				}
+			]
+		}
+	}
+}

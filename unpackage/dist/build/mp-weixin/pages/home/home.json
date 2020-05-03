@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "品词轩",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "poem-list": "/components/poem-list/poem-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "empty": "/components/empty/empty"
+  }
+}
