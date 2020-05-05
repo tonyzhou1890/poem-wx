@@ -66,11 +66,11 @@
           }
         }
         console.log(Date.now() - s)
-        // 分组排序--v8引擎的sort实现在数据大于10个的时候，排序不正确
-        // temp.sort((a, b) => a.letter < b.letter)
-        sort(temp, (a, b) => {
-          return a.letter < b.letter
-        })
+        // 分组排序
+        temp.sort((a, b) => a.letter.charCodeAt(0) - b.letter.charCodeAt(0))
+        // sort(temp, (a, b) => {
+        //   return a.letter < b.letter
+        // })
         console.log(Date.now() - s)
         return temp
       }
